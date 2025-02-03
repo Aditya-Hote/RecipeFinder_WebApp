@@ -1,6 +1,5 @@
 # RecipeFinder_WebApp
 Recipe Finder is a simple and user-friendly web application designed to help users discover delicious recipes quickly and easily.
-# Recipe Finder Website
 
 ## Description
 Recipe Finder is a simple and user-friendly web application designed to help users discover delicious recipes quickly and easily. Users can search for recipes based on ingredients, cuisine, or meal type, making it convenient to find the perfect dish. The website features a clean interface with a powerful search function, categorized recipe listings, and responsive design for seamless access across devices.
