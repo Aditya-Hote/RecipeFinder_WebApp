@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Recipe Book</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Find Your Receipe</h1>
+    <input type="text" id="recipeInput" placeholder="Search by recipe name...">
+    <button onclick="findRecipe()">Search</button>
+
+    <div class="recipe-container" id="recipeContainer">
+        <!-- Static image shown on the front page -->
+    </div>
+
+    <!-- Modal for recipe details -->
+    <div class="modal-overlay" id="recipeModal">
+
+        <div class="modal-content" id="recipeDetails">
+            <button class="close-btn" onclick="closeModal()">Close</button>
+            <div class="recipe-info">
+                <h2 id="recipeTitle"></h2>
+
+<div style="display: flex;">
+                <div style="width: 50%;margin-top: 30px;">
+                <img id="recipeImage" alt="Recipe Image">
+            </div>
+
+                <div class="ingredients-list">
+                    <h3>Ingredients:</h3>
+                    <ul id="ingredientList"></ul>
+                </div>
+
+
+
+            </div>
+                <div class="instructions">
+                    <h3>Instructions:</h3>
+                    <p id="recipeInstructions"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright: &copy; 2025 Aditya Hote. All rights reserved.</p>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
+
